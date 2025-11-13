@@ -35,7 +35,7 @@ export default function Navbar() {
         </div>
 
         <ul className="hidden lg:flex items-center space-x-6 text-sm ">
-          <li><Link href="#">Home</Link></li>
+          <li><Link href="#" className="cursor-pointer hover:text-teal-600 transition-colors">Home</Link></li>
           <li className="relative group">
             <button className="flex items-center gap-1 focus:outline-none">
               Parent

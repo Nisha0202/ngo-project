@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Geist, Geist_Mono, Inter, Metrophobic } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const metro = Metrophobic({ subsets: ["latin"], variable: "--font-metro", weight: "400" });
 const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
@@ -34,6 +35,9 @@ export default function RootLayout({
         <div className="mt-16">
           {children}
         </div>
+
+        
+        <Footer/>
       </body>
     </html>
   );
