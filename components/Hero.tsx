@@ -18,26 +18,26 @@ export default function Hero() {
                 {/* Content */}
                 <div className="relative max-w-4xl ">
 
-                   
-                        <div className="px-4 py-2 max-w-fit mb-4  flex items-center gap-2 text-xs sm:text-sm bg-white/30 border-white border text-white rounded-full">
-                            <AiOutlineHeart className="font-bold text-lg  text-green-400" /> Every dog deserves a second chance
-                        </div>
-                   
+
+                    <div className="px-4 py-2 max-w-fit mb-4  flex items-center gap-2 text-xs sm:text-sm bg-white/30 border-white border text-white rounded-full">
+                        <AiOutlineHeart className="font-bold text-lg  text-green-400" /> Every dog deserves a second chance
+                    </div>
+
 
                     <h1 className="text-5xl sm:text-7xl font-medium text-white mb-6 text-left font-metro leading-12 sm:leading-20">
                         Rescuing & Caring <br />for Street Dogs
                     </h1>
-                    <p className=" text-base sm:text-lg max-w-3xl text-gray-100 mb-12 text-left">
+                    <p className="leading-relaxed sm:text-lg max-w-3xl text-gray-100 mb-12 text-left">
                         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
                         excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
                         id nisi.
                     </p>
-<div className="w-full md:w-auto mb-12">
-  <button className="w-full md:w-auto flex justify-center items-center gap-2 px-4 py-2 bg-blue text-white rounded-full font-medium">
-    <AiOutlineHeart className="text-lg" />
-    Donate Now
-  </button>
-</div>
+                    <div className="w-full md:w-auto mb-12">
+                        <button className="w-full md:w-auto flex justify-center items-center gap-2 px-4 py-2 bg-blue text-white rounded-full font-medium">
+                            <AiOutlineHeart className="text-lg" />
+                            Donate Now
+                        </button>
+                    </div>
 
                 </div>
             </div>

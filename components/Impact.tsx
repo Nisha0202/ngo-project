@@ -7,7 +7,7 @@ import StatsCard from "./StatsCard";
 
 export default function Impact() {
     return (
-        <section id="impact" className="scroll-mt-20 max-w-7xl my-8 sm:my-16 flex items-center flex-col mx-auto justify-center w-full">
+        <section id="impact" className="scroll-mt-20 max-w-7xl mt-8 sm:mt-16 flex items-center flex-col mx-auto justify-center w-full">
             {/* Text */}
             <SectionText
                 label="Our Impact"
@@ -43,10 +43,10 @@ export default function Impact() {
                 </h2>
 
                 {/* Cards */}
-                <div className="w-full p-8 sm:p-16 rounded-4xl bg-linear-to-b from-teal/10 via-teal/5 to-transparent flex flex-col gap-8">
+                <div className="w-full p-8 sm:p-16 rounded-4xl bg-linear-to-b from-green/15 via-teal/10 to-transparent flex flex-col gap-8">
                 <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
                        {/* Before Card */}
-                    <div className="bg-white shadow-md rounded-2xl sm:rounded-3xl overflow-hidden w-full sm:w-1/2">
+                    <div className="bg-white shadow-xl rounded-2xl sm:rounded-3xl overflow-hidden w-full sm:w-1/2">
                      <div className="p-4 text-center">
                             <h3 className="text-xl font-metro ">Before Care</h3>
                         </div>
@@ -63,7 +63,7 @@ export default function Impact() {
                     </div>
 
                     {/* After Card */}
-                    <div className="bg-white shadow-md rounded-2xl sm:rounded-3xl overflow-hidden w-full sm:w-1/2">
+                    <div className="bg-white shadow-xl rounded-2xl sm:rounded-3xl overflow-hidden w-full sm:w-1/2">
                       <div className="p-4 text-center">
                             <h3 className="text-xl font-metro">After Care</h3>
                         </div>
@@ -88,7 +88,7 @@ export default function Impact() {
                             Buddy's Journey
                         </h2>
 
-                        <p className="text-sm sm:text-base max-w-3xl text-zinc-700 text-center py-3">Rescued from a highway with severe injuries. After 3 months of care, now thriving in his forever home.
+                        <p className="text-gray-700 leading-relaxed max-w-3xl text-center py-3">Rescued from a highway with severe injuries. After 3 months of care, now thriving in his forever home.
 
                         </p>
                     </div>
@@ -96,16 +96,7 @@ export default function Impact() {
                 </div>
 
 
-              
-
-
-
-
-
             </div>
-
-
-
 
 
         </section>

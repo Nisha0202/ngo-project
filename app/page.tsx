@@ -1,4 +1,4 @@
-import Hero from "@/components/Heo";
+import Hero from "@/components/Hero";
 import Impact from "@/components/Impact";
 
 

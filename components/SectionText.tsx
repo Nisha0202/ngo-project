@@ -18,12 +18,12 @@ export default function SectionText({ label, title, description }: SectionTextPr
           </div>
 
           {/* Title */}
-          <h1 className="title text-3xl sm:text-5xl font-medium mb-3 font-metro">
+          <h1 className="title text-3xl sm:text-5xl font-medium mb-3 font-metro ">
             {title}
           </h1>
 
           {/* Description */}
-          <p className="description text-sm sm:text-base max-w-3xl text-zinc-700">
+          <p className="description max-w-3xl text-gray-700 leading-relaxed">
             {description}
           </p>
         </div>

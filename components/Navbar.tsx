@@ -3,8 +3,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import {AiOutlineHeart} from "react-icons/ai";
+
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
 
   return (
     <nav className="w-full bg-white  shadow-sm sticky top-0 z-50">
@@ -35,7 +38,7 @@ export default function Navbar() {
         </div>
 
         <ul className="hidden lg:flex items-center space-x-6 text-sm ">
-          <li><Link href="#" className="cursor-pointer hover:text-teal-600 transition-colors">Home</Link></li>
+          <li><Link href="/" className="cursor-pointer hover:text-teal-600 transition-colors">Home</Link></li>
           <li className="relative group">
             <button className="flex items-center gap-1 focus:outline-none">
               Parent
@@ -50,6 +53,7 @@ export default function Navbar() {
             </ul>
           </li>
           <li><Link href="#impact" className="cursor-pointer hover:text-teal-600 transition-colors">Impact</Link></li>
+      <li><Link href="/about" className="cursor-pointer hover:text-teal-600 transition-colors">About</Link></li>
         </ul>
 
         {/* Right: Button */}
@@ -74,7 +78,8 @@ export default function Navbar() {
                 </ul>
               </details>
             </li>
-            <li><Link href="/impact" className="block px-2 py-2 hover:bg-gray-100 rounded">Impact</Link></li>
+            <li><Link href="#impact" className="block px-2 py-2 hover:bg-gray-100 rounded">Impact</Link></li>
+             <li><Link href="/about" className="block px-2 py-2 hover:bg-gray-100 rounded">About</Link></li>
           </ul>
         </div>
       )}
