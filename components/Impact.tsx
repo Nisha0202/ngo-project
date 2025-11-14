@@ -7,7 +7,7 @@ import StatsCard from "./StatsCard";
 
 export default function Impact() {
     return (
-        <section id="impact" className="scroll-mt-20 max-w-7xl mt-8 sm:mt-16 flex items-center flex-col mx-auto justify-center w-full">
+        <section id="impact" className="scroll-mt-20 max-w-7xl px-4 sm:px-6 lg:px-8 mt-8 sm:mt-16 flex items-center flex-col mx-auto justify-center w-full">
             {/* Text */}
             <SectionText
                 label="Our Impact"
@@ -38,7 +38,7 @@ export default function Impact() {
             {/* Stories */}
             <div className="w-full mx-auto">
                 {/* Title */}
-                <h2 className="text-2xl sm:text-3xl font-medium text-center  sm:mb-12 mt-10 sm:mt-16  font-metro">
+                <h2 className="text-2xl sm:text-3xl font-medium text-center mb-8 sm:mb-12 mt-10 sm:mt-16  font-metro">
                     Transformation Stories
                 </h2>
 

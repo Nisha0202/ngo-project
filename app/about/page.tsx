@@ -29,7 +29,7 @@ export default function About() {
         },
     ];
     return (
-        <section className=" text-gray-900 max-w-7xl mx-auto pt-8 px-4 rounde-2xl  bg-white">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-900 pt-8  rounde-2xl  bg-white">
 
                 <SectionText
 
@@ -42,11 +42,11 @@ export default function About() {
 
 
             {/* Story Section */}
-            <div className="max-w-7xl mx-auto py-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div className="  py-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <div
 
                 >
-                    <h2 className="text-2xl font-semibold sm:text-3xl mb-4 text-blue">
+                    <h2 className="text-2xl font-semibold sm:text-3xl mb-4 text-green">
                         Where It All Began
                     </h2>
                     <p className="text-gray-700 leading-relaxed">

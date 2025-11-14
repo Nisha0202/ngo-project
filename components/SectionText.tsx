@@ -9,7 +9,7 @@ type SectionTextProps = {
 export default function SectionText({ label, title, description }: SectionTextProps) {
   return (
     <section className="relative flex items-center ">
-      <div className="max-w-7xl py-3 mx-auto flex justify-between items-center w-full">
+      <div className="py-3 mx-auto flex justify-between items-center w-full">
         {/* Content */}
         <div className="relative mx-auto text-center">
           {/* Label */}

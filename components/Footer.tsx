@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-cyan-800 text-gray-100 mt-0">
       {/* Top Section */}
-      <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Services */}
         <div>
           <h6 className="text-lg font-medium mb-3  font-metro">Services</h6>
