@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Services */}
         <div>
           <h6 className="text-lg font-medium mb-3  font-metro">Services</h6>
-          <ul className="space-y-2 text-sm ">
+          <ul className="space-y-2 text-sm text-gray-300">
             {["Branding", "Design", "Marketing", "Advertisement", "Press Kit"].map((item) => (
               <li key={item}>
                 <a
@@ -25,7 +25,7 @@ export default function Footer() {
         {/* Company */}
         <div>
           <h6 className="text-lg font-medium mb-3 font-metro">Company</h6>
-          <ul className="space-y-2 text-sm ">
+          <ul className="space-y-2 text-sm text-gray-300">
             {["About Us", "Contact", "Jobs", "Blog", "Press Kit"].map((item) => (
               <li key={item}>
                 <a
@@ -42,7 +42,7 @@ export default function Footer() {
         {/* Support */}
         <div>
           <h6 className="text-lg font-medium mb-3 font-metro">Support</h6>
-          <ul className="space-y-2 text-sm ">
+          <ul className="space-y-2 text-sm text-gray-300 ">
             {["FAQs", "Help Center", "Community", "Guides", "Contact Support"].map((item) => (
               <li key={item}>
                 <a
@@ -59,12 +59,12 @@ export default function Footer() {
         {/* Socials */}
 <div className="flex flex-col items-center justify-center gap-4">
   <h6 className="text-lg font-medium mb-1 font-metro">Follow Us</h6>
-  <div className="flex gap-5">
+  <div className="flex gap-5  ">
     {/* Twitter */}
     <a
       href="#"
       aria-label="Twitter"
-      className="hover:text-blue-300 transition-transform duration-200 hover:scale-110"
+      className="hover:text-blue-300 text-gray-300 transition-transform duration-200 hover:scale-110"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ export default function Footer() {
     <a
       href="#"
       aria-label="YouTube"
-      className="hover:text-blue-300 transition-transform duration-200 hover:scale-110"
+      className="hover:text-blue-300 text-gray-300 transition-transform duration-200 hover:scale-110"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export default function Footer() {
     <a
       href="#"
       aria-label="Facebook"
-      className="hover:text-blue-300 transition-transform duration-200 hover:scale-110"
+      className="hover:text-blue-300 text-gray-300 transition-transform duration-200 hover:scale-110"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -116,16 +116,16 @@ export default function Footer() {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-blue-600/50" />
+      <div className="border-t border-blue" />
 
       {/* Bottom Section */}
-      <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-sm text-blue-100">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row justify-between items-center text-sm text-blue-100">
         <p className="mb-4 md:mb-0 text-center md:text-left">
-          <span className="font-semibold text-white">PawsRescue</span> <br />
+          <span className="font-semibold  mb-1 text-gray-300">PawsRescue</span> <br />
           Providing reliable tech since 1992
         </p>
 
-        <ul className="flex flex-wrap justify-center gap-5">
+        <ul className="flex flex-wrap justify-center gap-5 text-gray-300">
           {["Terms of Use", "Privacy Policy", "Cookie Policy"].map((item) => (
             <li key={item}>
               <a

@@ -33,8 +33,8 @@ export default function About() {
 
                 <SectionText
 
-                    label="Our Impact"
-                    title="Making a Real Difference"
+                    label="About Us"
+                    title="Our Story & Mission"
                     description="Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi."
                 />
            
@@ -66,7 +66,7 @@ export default function About() {
 
 
                 <div className="relative w-full h-96">
-                    {/* Image with its own overflow-hidden for hover scale */}
+              
                     <div className="rounded-2xl overflow-hidden shadow-lg w-full h-full group">
                         <Image
                             src="https://images.unsplash.com/photo-1548439739-0cf616cef1cd?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -76,7 +76,7 @@ export default function About() {
                         />
                     </div>
 
-                    {/* Bottom-left overlay card popping out */}
+                    {/*overlay card */}
                     <div className="absolute -bottom-6 -left-6 bg-white/90 rounded-lg p-4 shadow-lg backdrop-blur-sm transition-transform duration-300 hover:-translate-y-1">
                         <h4 className="font-bold text-blue text-2xl">7+ Years</h4>
                         <p className="text-gray-500 text-center text-sm mt-1">Making a Difference</p>
@@ -89,7 +89,7 @@ export default function About() {
 
             </div>
 
-            {/* Mission Section */}
+
 
 
             <section className=" pt-10 sm:py-16">
